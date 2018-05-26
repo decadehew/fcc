@@ -45,7 +45,7 @@ class App extends Component {
     const { camperData, iconAllTime, iconRecent } = this.state
     return (
       <div className="App">
-        <h3 className="ui left aligned top attached header">
+        <h3 className="ui left aligned top attached header f">
           <img className="ui mini circular image" src={logo} />
           <div className="content">
             DecadeHew
@@ -57,8 +57,8 @@ class App extends Component {
             <a href="https://www.facebook.com/amy262833" title="fb"><i className="facebook square icon"></i></a>
           </div>
         </h3>
-        <br />
-        <div className="ui container">
+       
+        <div className="ui container b">
           <div className="row">
             <Table 
               id="top"
