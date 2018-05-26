@@ -4,6 +4,15 @@ body {
   font-family: sans-serif;
 }
 
+div.h {
+  float: right;
+  padding-top: 8px;
+}
+
+.h i {
+  font-size: 2rem;
+}
+
 .cName img {
   width: 35px;
   height: 35px;
